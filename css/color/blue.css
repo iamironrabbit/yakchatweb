@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* ============================== */
+/* 
+	Title: Bonna - Responsive Landing Page
+	Color: Blue
+*/
+/* ============================== */
+
+body{
+	background-color: #009EDF;
+}
+
+header {
+	background-color: #009EDF;
+}
+
+.da-slide h2{	
+	text-shadow: 3px 3px 0 #0072d0;	
+}
+
+.da-slide .da-link{
+	color: #009EDF;
+}
+
+.testimonials span {
+	color: #009EDF;
+}
+
+.accordion-trigger{
+	border-bottom: 1px solid #007eb2;
+}
+
+.accordion-trigger.active{
+	border-bottom: 1px solid #007eb2;
+}
+
+.accordion-container{
+	border-bottom: 1px solid #007eb2;
+}
+
+.team-social ul li a{
+	background-color: #009EDF;
+}
+
+.team-social ul li a:hover {
+	box-shadow: 0 0px 0 5px rgba(0,158,223,0.5);
+}
+
+.text-team h2{
+	color: #009EDF;
+}
+
+/*Images*/
+.img-preview {
+	background-image: url("../../img/plus-blue.png");	
+}
+
+.shape{
+	background-image: url("../../img/shape-blue.png");
+}
+
+.accordion-trigger{
+	background-image: url("../../img/toggle-blue.png");
+}
+
+.jcarousel-prev, .jcarousel-next {	
+	background-image: url("../../img/carousel-arrows-blue.png");
+}
+
+.apple_icon{
+	background-image: url("../../img/apple-icon-blue.png");
+}
+
+.android_icon{
+	background-image: url("../../img/android-icon-blue.png");
+
+}
+
+
+
+
+
+
+

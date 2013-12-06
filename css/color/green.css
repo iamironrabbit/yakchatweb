@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* ============================== */
+/* 
+	Title: Bonna - Responsive Landing Page
+	Color: Green
+*/
+/* ============================== */
+
+body{
+	background-color: #6CAE30;
+}
+
+header {
+	background-color: #6CAE30;
+}
+
+.da-slide h2{	
+	text-shadow: 3px 3px 0 #38881a;	
+}
+
+.da-slide .da-link{
+	color: #6CAE30;
+}
+
+.testimonials span {
+	color: #6CAE30;
+}
+
+.accordion-trigger{
+	border-bottom: 1px solid #568b26;
+}
+
+.accordion-trigger.active{
+	border-bottom: 1px solid #568b26;
+}
+
+.accordion-container{
+	border-bottom: 1px solid #568b26;
+}
+
+.team-social ul li a{
+	background-color: #6CAE30;
+}
+
+.team-social ul li a:hover {
+	box-shadow: 0 0px 0 5px rgba(108,174,48,0.5);
+}
+
+.text-team h2{
+	color: #6CAE30;
+}
+
+
+
+/*Images*/
+.img-preview {
+	background-image: url("../../img/plus-green.png");	
+}
+
+.shape{
+	background-image: url("../../img/shape-green.png");
+}
+
+.accordion-trigger{
+	background-image: url("../../img/toggle-green.png");
+}
+
+.jcarousel-prev, .jcarousel-next {	
+	background-image: url("../../img/carousel-arrows-green.png");
+}
+
+.apple_icon{
+	background-image: url("../../img/apple-icon-green.png");
+}
+
+.android_icon{
+	background-image: url("../../img/android-icon-green.png");
+
+}

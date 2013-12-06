@@ -1,0 +1,7 @@
+@font-face{
+font-family:'MonlamBodyig';
+src:url('../font/monlambodyig.eot');
+src:url('../font/monlambodyig.eot?iefix') format('eot'),url('monlambodyig.woff') format('woff'),
+	 url('../font/monlambodyig.ttf') format('truetype');font-weight:normal;font-style:normal;}
+body,li,.menu-item,a{font-family:"MonlamBodyig",Verdana,Tahoma;font-size:100%;
+}

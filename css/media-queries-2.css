@@ -1,0 +1,334 @@
+/* ============================= */
+/* !   Layout for 1024px version */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 1024px) {
+	/*slide*/
+	header .slide{		
+		height: 400px;
+	}
+	.da-slide h2{
+		margin-top:5%;
+	}	
+	.team-social{
+		position: absolute;
+		bottom: -5px;
+		width: 70%;
+		left: 24%;
+	}
+	.general-shadow{
+		top: -85px;
+	}
+	.da-slide .da-img{		
+		width: 30%;		
+		top: -10%;	
+	}
+}
+
+
+/* ============================= */
+/* !   Layout for 768px version  */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 768px) {
+
+	.top{
+		padding-top: 30px;
+	}
+	.logo img{
+		width: 25%;
+		float: left;
+	}
+	ul.menu  {
+		right: 40px;
+		top: 35px;		
+		position: absolute;
+	}
+	ul.menu li {		
+		margin-left: 20px;	  
+	}
+	ul.menu li a {		
+		font-size:14px;    	
+	}
+
+
+	/*slide*/
+	header{		
+		height: 365px;
+	}
+	header .slide{		
+		height: 290px;
+	}	
+	.da-slide .da-img{		
+		width: 30%;			
+	}
+	.da-slide h2{	
+		font-size: 25px;	
+		line-height: 35px;
+		margin-top: 3%;
+	}
+	.da-slide .da-link{		
+		font-size: 10px;
+		padding: 10px 13px 11px 64px;	
+		margin: 15px 2% 5px 0;	
+	}	
+	.da-slide p{
+		margin-top:5px;
+		font-size: 12px;		 						
+	}
+	.da-dots{
+		width: 25%;	
+		margin:0 37.5%;
+		bottom: 0;
+	}
+	.services div{
+		margin-bottom: 20px;
+	}
+	.subform input[type="text"],.subform input[type="email"], .subform textarea, .subform select {
+		width: 80%;
+	}
+	.newsletter h1.title,.testimonials h1.title, h1.title {		
+		font-size:35px;
+		text-align: center;
+		line-height: 40px;
+		margin-bottom: 30px;
+	}
+	.iphone {		
+		margin: 0px 0 0px 0;
+	}
+	.newsletter,.testimonials, .information, .team{
+		margin-top: 60px;
+	}
+	.contact{
+		padding-top: 60px;
+		padding-bottom: 90px;
+	}
+	.team-social{	
+		width: 60%;
+		left: 35%;
+	}
+	.general-shadow{
+		top: -50px;
+	}
+}
+
+/* ============================= */
+/* !   Layout for 685px version  */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 685px) {
+	/*slide*/
+	header{		
+		height: 360px;
+	}
+	header .slide{		
+		height: 290px;
+	}	
+	.da-slide .da-img{		
+		width: 33%;		
+		margin-top: 5%;
+	}
+	.da-slide h2{	
+		font-size: 22px;	
+	}
+	.da-slide .da-link{		
+		font-size: 9px;
+		padding: 7px 9px 7px 60px;	
+		margin: 0px 2% 5px 0;	
+	}	
+}
+
+/* ============================= */
+/* !   Layout for 600px version  */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 600px) {
+	/*slide*/
+	header{		
+		height: 355px;
+	}	
+	.da-slide .da-img{					
+		margin-top: 14%;
+	}
+	.da-slide h2{	
+		font-size: 22px;	
+	}
+	.da-slide p{
+		width: 55%;
+	}
+	.testimonials .boxes{
+		width: 60%;		
+	}
+}
+
+/* ============================= */
+/* !   Layout for 568px version  */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 568px) {
+	/*slide*/
+	header{		
+		height: 350px;
+	}	
+	.da-slide .da-img{					
+		margin-top: 14%;
+	}
+	.da-slide h2{	
+		font-size: 22px;	
+	}
+}
+
+/* ============================= */
+/* !   Layout for 480px version  */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 480px) {
+	/*slide*/
+	header {		
+		height: 320px;
+	}
+	header .slide{		
+		height: 260px;
+	}
+	ul.menu  {
+		right: 30px;
+		top: 30px;		
+		position: absolute;
+	}
+	ul.menu li {		
+		margin-left: 15px;	  
+	}
+	ul.menu li a {		
+		font-size:12px;    	
+	}
+	.da-slide .da-img{		
+		width: 33%;		
+		margin-top: 12%;
+	}
+	.da-slide h2{	
+		font-size: 18px;
+		width: 55%;	
+		margin-top: 3%;
+		line-height: 25px;
+	}
+	.da-dots{
+		width: 35%;	
+		margin:0 32.5%;		
+	}
+	.da-slide .da-link{				
+		padding: 5px 13px 7px 64px;	
+		margin-top: 25px;		
+	}	
+	.da-slide p{
+		display: none;	 						
+	}
+	.testimonials h2 img{
+		display: none;
+	}
+	.testimonials .boxes{
+		width: 57%;		
+	}
+	.team-social{	
+		width: 60%;
+		left: 29%;
+	}
+	.general-shadow{
+		top: -38px;
+	}
+}
+
+
+/* ============================= */
+/* !   Layout for 380px version  */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 380px) {
+	/*slide*/
+	header{		
+		height: 310px;
+	}	
+	.da-slide .da-img{					
+		margin-top: 25%;
+	}
+	.da-slide h2{	
+		font-size: 22px;	
+		margin-top: 10%;
+	}	
+	.da-slide .da-link{				
+		padding: 1px 13px 7px 64px;						
+	}	
+	.testimonials .boxes{
+		width: 50%;		
+	}
+	.team-social{	
+		width: 65%;
+		left: 21%;
+	}
+}
+
+
+/* ============================= */
+/* !   Layout for 320px version  */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 320px) {
+	header{
+		height:280px;
+	}
+	header .slide{		
+		height: 235px;
+	}
+	ul.menu  {
+		right: 10px;
+		top: 25px;		
+		position: absolute;
+	}
+	ul.menu li {		
+		margin-left: 8px;	  
+	}
+	ul.menu li:last-child {		
+		margin-left: 0	  
+	}
+	ul.menu li a {		
+		font-size:10px;    	
+	}
+	
+	/*slide*/
+	.da-slide .da-img{		
+		width: 36%;
+		margin-top: 22%;
+	}
+	.da-slide h2{	
+		font-size: 12px;
+		width: 60%;	
+		margin-top: 10%;				
+		line-height: 20px;
+	}
+	.da-slide .da-link{	
+		margin-top: 16px;
+		font-size: 8px;			
+	}
+	section.testimonials .info_testimonial{	
+		width: 58%;
+		border:solid 1px #dcdcdc;
+	}
+	section.testimonials .testimonial{		
+		margin-top: 320px;
+	}
+	.testimonials .boxes{
+		width: 50%;		
+	}
+	.testimonials img{
+		float:left;
+		margin:0 20px 0 0;
+		border-radius:65%;
+		width: 30%;
+	}
+	.team-social{	
+		width: 65%;
+		left: 23%;
+	}
+	.general-shadow{
+		top: -30px;
+	}
+}

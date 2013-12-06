@@ -1,0 +1,214 @@
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 767px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 767px) {
+	/*menu*/
+	header .tinynav { 
+		display: block; 
+		width:100%;
+		text-align:center; 
+	}
+    header ul#nav { display: none }
+	
+	/*logo*/
+	.container.top {
+		padding-top: 30px;
+	}
+	header .logo {
+		text-align:center;
+	 	width: auto;
+		margin-bottom:20px;
+	}
+	/*slider*/
+	.da-slide .da-img {
+		margin-top: 31%;
+	}
+
+	/*title*/
+	.container h1.title {
+		font-size:32px;
+		line-height: 42px;
+		margin-bottom: 10px;
+		text-align:center;
+	}
+	/*newsletter*/
+	.newsletter, .newsletter input, .newsletter h1.title, .testimonials h1.title, .newsletter p {
+		text-align: center;
+	}
+	.newsletter .submit-button {
+		text-align: center;
+		float:none;
+	} 
+
+	/*contact*/
+	#contact p, #contact #contact-form {
+		text-align:center;
+	}
+	
+
+	/*social icons of team*/
+	#team .team-social {
+    	left: 36%;
+	}
+	#contact #contact-form input[type="text"], #contact #contact-form input[type="email"], #contact #contact-form textarea {
+    	width: 91%;
+	}
+	
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+/* ---------------------------------------------------------------------- */
+    @media screen and (max-width: 600px) {
+	  
+	 body  header {
+    	padding: 0 0 130px;
+	}
+	  /*slide*/
+	header {		
+		height: 320px;
+	}
+	body header .slide{		
+		height: 246px;
+	}
+	.da-slide .da-img{		
+		bottom: 75px;
+    	margin-top: 0;
+    	width: 24%;
+		position:absolute;
+	}
+	.da-slide h2{	
+		font-size: 18px;
+		width: 85%;	
+		margin: 3% 0 0 21%;
+		line-height: 25px;
+	}
+	.da-dots{
+		width: 35%;	
+		margin:0 32.5%;		
+	}
+	.da-slide .da-link{				
+		font-size: 13px;
+		margin: 19px 0 5px 106px;
+    	padding: 6px 10px 9px 61px;
+	}	
+	.da-slide p{
+		display: none;	 						
+	}
+	  
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Layout for 568px version
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 568px) {
+	/*slide*/
+	header {		
+		height: 320px;
+	}
+	body header .slide{		
+		height: 246px;
+	}
+	.da-slide .da-img{		
+		bottom: 75px;
+    	margin-top: 0;
+    	width: 24%;
+		position:absolute;
+	}
+	.da-slide h2{	
+		font-size: 18px;
+		width: 85%;	
+		margin: 3% 0 0 21%;
+		line-height: 25px;
+	}
+	.da-dots{
+		width: 35%;	
+		margin:0 32.5%;		
+	}
+	.da-slide .da-link{				
+		font-size: 13px;
+		margin: 19px 0 5px 106px;
+    	padding: 6px 10px 9px 61px;
+	}	
+	.da-slide p{
+		display: none;	 						
+	}
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 480px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 480px) { 
+
+	
+	header .container.top {
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+	
+	/*slide*/
+	header {		
+		height: 320px;
+	}
+	body header .slide{		
+		height: 246px;
+	}
+	.da-slide .da-img{		
+		bottom: 0;
+    	margin-top: 0;
+    	width: 24%;
+		position:absolute;
+	}
+	.da-slide h2{	
+		font-size: 18px;
+		width: 85%;	
+		margin-top: 3%;
+		line-height: 25px;
+	}
+	.da-dots{
+		width: 35%;	
+		margin:0 32.5%;		
+	}
+	.da-slide .da-link{				
+		font-size: 13px;
+		margin: 19px 0 5px 70px;
+    	padding: 6px 10px 9px 61px;
+	}	
+	.da-slide p{
+		display: none;	 						
+	}
+
+	.testimonials .carousel .boxes {
+    	width: 54%;
+	}
+	
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 320px) {
+	
+	.testimonials .carousel .boxes {
+    	width: 43%;
+		padding:5px;
+	}
+	.testimonials .carousel .boxes p{
+    	font-size:12px;
+		line-height: 20px;
+	}
+	#team .team-social {
+    	left: 24%;
+	}
+	#contact #contact-form input[type="text"], #contact #contact-form input[type="email"], #contact #contact-form textarea {
+    	width: 100%;
+	}
+	
+	
+
+}
