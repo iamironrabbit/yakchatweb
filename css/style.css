@@ -53,7 +53,6 @@ table, caption, tr, td, footer, header {
 body{
 	font-size: 14px;	
 	font-family: 'Roboto', Arial, sans-serif;
-	font-family: MonlamBodyig;
 	line-height:24px;
 	color:#fff;
 	position: relative;
@@ -183,7 +182,6 @@ ul.menu li span{
 }
 h1.title {
 	font-family: 'Pacifico', cursive;
-	font-family: MonlamBodyig;
 	font-size:48px;
 	color:#fff;
 	margin-bottom:52px;
@@ -193,9 +191,9 @@ h1.title {
 
 .tibetan {
 font-family: MonlamBodyig;
-color: #005CB9;
 }
 
+/*<! ---color: #005CB9;--> */
 
 /* Header Slide ----------------------------*/
 header {
@@ -332,7 +330,6 @@ header .slide{
 }
 .subform textarea {
 	font-family: 'Roboto', Arial, sans-serif;
-	font-family: MonlamBodyig;
 	font-weight:normal;
 }
 .subform:after, .subform div:after, .subform ol:after, .subform ul:after, .subform li:after, .subform dl:after {
